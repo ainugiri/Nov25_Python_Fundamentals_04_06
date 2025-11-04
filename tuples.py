@@ -11,6 +11,7 @@ print(t1)
 
 t2 = ('A','B', 'C')
 
-t3 = t2 * 2
-
-print(t3)
+t3 = t2 * 3
+print(f"t1: {t1}")
+print(f"t2: {t2}")
+print(f"t3: {t3}")

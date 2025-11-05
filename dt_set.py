@@ -28,3 +28,19 @@ print(tennisonly)
 
 onlytennis_onlyvoll = set1 ^ set2
 print(onlytennis_onlyvoll)
+
+
+
+
+set4 = {"a2","a19","a12"}
+set4.remove("a19")
+print(set4)
+# set4.remove("a19")
+print(set4)
+
+set4 = {"a2","a19","a12"}
+print(set4)
+set4.discard("a19")
+print(set4)
+set4.discard("a19")
+print(set4)

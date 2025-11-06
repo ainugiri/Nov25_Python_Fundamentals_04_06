@@ -30,7 +30,8 @@ def addition(a,b=1):
 
 print(addition(100))
 
-
+s_area = lambda a : a * a
 c_area = lambda x : 3.14 *x * x
 
 print(c_area(7))
+print(s_area(10))

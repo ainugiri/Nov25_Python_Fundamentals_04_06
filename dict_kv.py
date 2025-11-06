@@ -47,3 +47,74 @@ for k,v in e1.items():
 
 e1.clear()
 print(e1)
+
+
+dic1 = dict()
+print(type(dic1))
+
+dic1 = {
+    "key1": "value1",
+    "key2": "value2",
+    "key3": "value3",
+    "key4": "value4",
+    "key5": "value5",
+}
+
+print(dic1["key1"], dic1["key5"])
+
+
+dic1 = {
+    "key1": "value1001",
+    "key1": "value1002",
+    "key1": "value1005",
+    "key1": "value1004",
+    "key1": "value1003",
+}
+
+
+
+print(dic1["key1"])
+
+
+dic2 = {
+    "a":1,
+    "b":2,
+    "c":3,
+
+}
+
+print(dic2)
+
+# remove -> empty
+dic2 = {}
+print(dic2)
+
+dic3 = dict(x = 10, y = 25, z = 30, p=202, q = 2032)
+print(dic3)
+print("dic3['x']", dic3['x'])
+print(dic3.get('y',"Not Found"))
+print(dic3.get('a',"Not Found"))
+
+dic3['y'] = 205
+print(dic3.get('y',"Not Found"))
+del dic3["q"]
+print(dic3)
+
+print(dic3.pop("p"))
+print(dic3)
+
+dic4 = dict()
+dic4.update(dic3)
+print(dic4)
+
+
+dic5 = dict(name = 'Giri', Loc = 'Chennai', WF='Home', Mob=982)
+print(dic5)
+
+
+
+dic6 = dict(Dept = 'Tesing', Head = 'XYZ', ProCode='Pid:10201')
+print(dic6)
+
+dic5.update(dic6)
+print(dic5)
